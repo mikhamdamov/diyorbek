@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+footer{
+    display: grid;
+    grid-template-areas: "logo img hr br ";
+    margin-left: -300px;
+}
+.logo{
+   grid-area: logo;
+}
+.img{
+    width: 272px;
+    grid-area: img;
+}
+.h{
+    width: 272px;
+    grid-area: hr;
+}
+.p{
+    width: 272px;
+    grid-area: br;
+}
+.chec{  
+    width: 272px;
+    grid-area: chec;
+}
